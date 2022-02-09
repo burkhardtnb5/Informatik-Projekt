@@ -60,7 +60,7 @@ void balancevehicle() {
   checkserial();
   measuresensor();
 
-  while (measuredresult >= -0.14){
+  while (measuredresult >= -0.06){
     digitalWrite(RH,LOW);
     delay(100);
     measuresensor();
